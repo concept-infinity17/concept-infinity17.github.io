@@ -1,0 +1,75 @@
+* {
+	margin: 0 auto;
+}
+@font-face {
+	font-family: "Fatty";
+	src: url("./fonts/Abril_Fatface/AbrilFatface-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Titty";
+	src: url("./fonts/Titillium_Web/TitilliumWeb-Light.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Joe";
+	src: url("./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf")
+		format("truetype");
+}
+
+header {
+	text-align: center;
+	font-family: "Fatty";
+	font-size: 30px;
+}
+
+h2 {
+	font-family: "Joe";
+	font-size: 22px;
+}
+
+.property-name {
+	font-family: "Titty";
+	background-color: rgba(169, 171, 169, 0.47);
+}
+
+.description {
+	width: 600px;
+	margin: 10px auto;
+	text-align: justify;
+	font-family: "Joe";
+	font-size: 16px;
+}
+
+section {
+	margin: 20px auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+
+	border: 2px solid black;
+	border-radius: 3px;
+}
+
+section * {
+	flex: 1;
+}
+
+section img {
+	overflow: auto;
+	width: 400px;
+	justify-self: left;
+	padding: 10px;
+}
+
+.font-weight,
+.font-face,
+.line-height {
+	background-color: rgba(255, 172, 128, 0.6);
+}
+
+.font-style,
+.fallback-fonts,
+.linking-fonts {
+	background-color: rgba(142, 170, 169, 0.6);
+}
